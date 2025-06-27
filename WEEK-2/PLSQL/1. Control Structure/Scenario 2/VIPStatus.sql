@@ -1,3 +1,6 @@
+ALTER TABLE Customers ADD IsVIP VARCHAR2(5);
+
+
 DECLARE
     CURSOR c_customers IS
         SELECT CustomerID, Balance
